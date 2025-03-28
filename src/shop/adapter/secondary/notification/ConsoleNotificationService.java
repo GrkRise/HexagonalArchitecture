@@ -1,7 +1,7 @@
-package shop.adapter.out.notification;
+package shop.adapter.secondary.notification;
 
 import shop.domain.model.Order;
-import shop.domain.port.out.NotificationService;
+import shop.domain.port.secondary.NotificationService;
 
 public class ConsoleNotificationService implements NotificationService {
     @Override

@@ -1,13 +1,13 @@
 package shop;
 
-import shop.adapter.in.console.ConsoleOrderManager;
-import shop.adapter.out.notification.ConsoleNotificationService;
-import shop.adapter.out.persistence.InMemoryOrderRepository;
-import shop.adapter.out.persistence.InMemoryProductRepository;
-import shop.domain.port.in.OrderManagementUseCase;
-import shop.domain.port.out.NotificationService;
-import shop.domain.port.out.OrderRepository;
-import shop.domain.port.out.ProductRepository;
+import shop.adapter.primary.console.ConsoleOrderManager;
+import shop.adapter.secondary.notification.ConsoleNotificationService;
+import shop.adapter.secondary.persistence.InMemoryOrderRepository;
+import shop.adapter.secondary.persistence.InMemoryProductRepository;
+import shop.domain.port.primary.OrderManagementUseCase;
+import shop.domain.port.secondary.NotificationService;
+import shop.domain.port.secondary.OrderRepository;
+import shop.domain.port.secondary.ProductRepository;
 import shop.domain.service.OrderService;
 
 public class ShopApplication {

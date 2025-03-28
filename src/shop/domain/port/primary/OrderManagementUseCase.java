@@ -1,4 +1,4 @@
-package shop.domain.port.in;
+package shop.domain.port.primary;
 
 import shop.domain.model.Order;
 import shop.domain.model.OrderStatus;

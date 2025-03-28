@@ -1,7 +1,7 @@
-package shop.adapter.out.persistence;
+package shop.adapter.secondary.persistence;
 
 import shop.domain.model.Product;
-import shop.domain.port.out.ProductRepository;
+import shop.domain.port.secondary.ProductRepository;
 
 import java.util.*;
 

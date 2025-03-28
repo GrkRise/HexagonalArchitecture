@@ -3,10 +3,10 @@ package shop.domain.service;
 import shop.domain.model.Order;
 import shop.domain.model.OrderStatus;
 import shop.domain.model.Product;
-import shop.domain.port.in.OrderManagementUseCase;
-import shop.domain.port.out.NotificationService;
-import shop.domain.port.out.OrderRepository;
-import shop.domain.port.out.ProductRepository;
+import shop.domain.port.primary.OrderManagementUseCase;
+import shop.domain.port.secondary.NotificationService;
+import shop.domain.port.secondary.OrderRepository;
+import shop.domain.port.secondary.ProductRepository;
 
 import java.util.List;
 import java.util.Optional;

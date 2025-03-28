@@ -1,4 +1,4 @@
-package shop.domain.port.out;
+package shop.domain.port.secondary;
 
 import shop.domain.model.Order;
 

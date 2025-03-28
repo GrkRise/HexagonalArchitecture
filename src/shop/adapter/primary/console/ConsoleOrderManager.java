@@ -1,9 +1,9 @@
-package shop.adapter.in.console;
+package shop.adapter.primary.console;
 
 import shop.domain.model.Order;
 import shop.domain.model.OrderStatus;
 import shop.domain.model.Product;
-import shop.domain.port.in.OrderManagementUseCase;
+import shop.domain.port.primary.OrderManagementUseCase;
 
 import java.util.List;
 import java.util.Optional;
